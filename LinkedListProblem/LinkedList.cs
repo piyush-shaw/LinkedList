@@ -22,6 +22,16 @@ namespace LinkedListProblem
 			}
 			Console.WriteLine("{0} inserted into the linked list", node.data);
 		}
+
+		//creating add first method to add the element at first position in linked list
+		internal void AddFirst(int data)
+		{
+			Node node = new Node(data);
+			node.next = this.head;
+			this.head = node;
+			Console.WriteLine("{0} inserted into linked list ", node.data);
+		}
+
 		//displaying the data from linked list
 		internal void Display()
 		{
