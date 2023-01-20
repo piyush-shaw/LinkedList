@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace LinkedListProblem
 {
 	public class LinkedList
@@ -30,6 +31,12 @@ namespace LinkedListProblem
 			node.next = this.head;
 			this.head = node;
 			Console.WriteLine("{0} inserted into linked list ", node.data);
+		}
+
+		//creating append method to add the element at last position
+		internal void Append(int data)
+		{
+            Add(data);
 		}
 
 		//displaying the data from linked list
