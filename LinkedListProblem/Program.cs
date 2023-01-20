@@ -6,8 +6,9 @@ internal class Program
     {
         Console.WriteLine("Welcome to Linked List Problem");
         Console.WriteLine("\n1.CreateLinkedList \n2.AddFirstLinkedList \n3.AppendLinkedList \n4.InsertLinkedList \n5.DeleteFirstElement"+
-            "\n6.DeleteLastElement \n7.SearchNodeElement \n8.InsertNodeLinkedList \n9.DeleteElementAndFindSize");
+            "\n6.DeleteLastElement \n7.SearchNodeElement \n8.InsertNodeLinkedList \n9.DeleteElementAndFindSize \n10.SortLinkedListInAscendingOrder" );
         LinkedList list = new LinkedList();
+        SortedLinkedList list1 = new SortedLinkedList();
         Console.WriteLine("Enter to choice the option ");
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
@@ -89,6 +90,15 @@ internal class Program
                 Console.WriteLine("After removing an element");
                 list.Display();
                 list.Size();
+                break;
+            case 10:
+                Console.WriteLine("Creating a ordered linked list and add sort element in ascending order");
+                list1.Add(56);
+                list1.Add(30);
+                list1.Add(40);
+                list1.Add(70);
+                Console.WriteLine("After sorting the element in ascending");
+                list1.Display();
                 break;
             default:
                 Console.WriteLine("Please enter correct option ");
