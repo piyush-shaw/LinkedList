@@ -1,0 +1,15 @@
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/bin/Debug/net6.0/LinkedListProblem
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/bin/Debug/net6.0/LinkedListProblem.deps.json
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/bin/Debug/net6.0/LinkedListProblem.runtimeconfig.json
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/bin/Debug/net6.0/LinkedListProblem.dll
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/bin/Debug/net6.0/LinkedListProblem.pdb
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.csproj.AssemblyReference.cache
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.AssemblyInfoInputs.cache
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.AssemblyInfo.cs
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.csproj.CoreCompileInputs.cache
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.dll
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/refint/LinkedListProblem.dll
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.pdb
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/LinkedListProblem.genruntimeconfig.cache
+/Users/piyushshaw/Projects/LinkedListProblem/LinkedListProblem/obj/Debug/net6.0/ref/LinkedListProblem.dll
