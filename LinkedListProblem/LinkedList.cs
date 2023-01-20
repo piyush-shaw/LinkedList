@@ -71,6 +71,20 @@ namespace LinkedListProblem
             return head;
         }
 
+		//deleting first element from linked list
+		internal void RemoveFirstNode()
+		{
+			if (head == null)
+			{
+				Console.WriteLine("Linked list is empty");
+			}
+			else
+			{
+				head = head.next;
+				Console.WriteLine("Removed first node from linked list ");
+			}
+		}
+
         //displaying the data from linked list
         internal void Display()
 		{

@@ -5,7 +5,7 @@ internal class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to Linked List Problem");
-        Console.WriteLine("\n1.CreateLinkedList \n2.AddFirstLinkedList \n3.AppendLinkedList \n4.InsertLinkedList");
+        Console.WriteLine("\n1.CreateLinkedList \n2.AddFirstLinkedList \n3.AppendLinkedList \n4.InsertLinkedList \n5.DeleteFirstElement");
         LinkedList list = new LinkedList();
         Console.WriteLine("Enter to choice the option ");
         int option = Convert.ToInt32(Console.ReadLine());
@@ -37,6 +37,15 @@ internal class Program
                 list.Append(56);
                 list.Append(70);
                 list.InsertAtParticularPosition(2, 30);
+                list.Display();
+                break;
+            case 5:
+                Console.WriteLine("Delete first element in Linked List ");
+                list.Append(56);
+                list.Append(30);
+                list.Append(70);
+                list.Display();
+                list.RemoveFirstNode();
                 list.Display();
                 break;
             default:
